@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Basic resets and styling */
+body {
+    font-family: Arial, sans-serif;  /* Body text font */
+    background-color: #f4f4f4;      /* Light background color */
+    color: #333;                    /* Dark gray text color */
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #4CAF50;  /* Green color for headings */
+    font-family: Georgia, serif; /* Serif font for headings */
+}
+
+p {
+    color: #555;  /* Lighter gray text for paragraphs */
+}
+
+.color-schema {
+    background-color: #4CAF50;  /* Green background for color schema section */
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.color-box {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.color1 {
+    background-color: #4CAF50;  /* Green color */
+}
+
+.color2 {
+    background-color: #FF6347;  /* Tomato red color */
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #895ece;
+    color: rgb(243, 246, 247);
+}
+
+pre {
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Courier, monospace;
+}
