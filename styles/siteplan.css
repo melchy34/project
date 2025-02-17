@@ -1,58 +1,67 @@
-/* styles.css */
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* Basic resets and styling */
+/* Body styling */
 body {
-    font-family: Arial, sans-serif;  /* Body text font */
-    background-color: #f4f4f4;      /* Light background color */
-    color: #333;                    /* Dark gray text color */
-    margin: 20px;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 20px;
+    text-align: center;
 }
 
+/* Header styling */
 h1, h2 {
-    color: #4CAF50;  /* Green color for headings */
-    font-family: Georgia, serif; /* Serif font for headings */
+    color: #4CAF50; /* Green */
+    text-align: center;
 }
 
-p {
-    color: #555;  /* Lighter gray text for paragraphs */
+h2 {
+    margin-top: 20px;
+    text-align: center;
 }
 
-.color-schema {
-    background-color: #4CAF50;  /* Green background for color schema section */
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
-    font-weight: bold;
+/* Section styling */
+section {
+    margin-bottom: 30px;
 }
 
+/* Color Boxes for Color Schema */
 .color-box {
-    width: 100px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 .color1 {
-    background-color: #4CAF50;  /* Green color */
+    background-color: #4CAF50; /* Green */
 }
 
 .color2 {
-    background-color: #FF6347;  /* Tomato red color */
+    background-color: #FF6347; /* Tomato */
 }
 
+/* Footer styling */
 footer {
-    margin-top: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
     text-align: center;
-    background-color: #895ece;
-    color: rgb(243, 246, 247);
+    padding: 20px;
+    margin-top: 40px;
 }
 
-pre {
-    background-color: #eaeaea;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Courier, monospace;
+/* Text Styling */
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
