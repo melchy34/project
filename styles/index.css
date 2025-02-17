@@ -1,0 +1,177 @@
+/* Base mobile-first styles */
+:root {
+    --primary-color: #1a73e8;
+    --secondary-color: #e76f51;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --heading-color: #216ba5;
+    --footer-background: #333;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .header .logo img {
+    width: 80px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+    display: inline-block;
+    padding-left: 10px;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  /* Main Section Styling */
+  main {
+    padding: 20px;
+  }
+  
+  .site-plan {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(230, 223, 223, 0.1);
+    border-radius: 8px;
+  }
+  
+  .site-plan h2 {
+    font-size: 28px;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+  }
+  
+  .site-plan h3 {
+    font-size: 22px;
+    color: var(--heading-color);
+    margin-top: 20px;
+  }
+  
+  .site-plan p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .site-plan ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .site-plan ul li {
+    margin-bottom: 10px;
+  }
+  
+  .site-map-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #f4a261;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: var(--footer-background);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer .social-media a {
+    margin-right: 15px;
+  }
+  
+  footer .social-media img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease;
+  }
+  
+  footer .social-media img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Larger screen styles using media queries */
+  @media screen and (min-width: 600px) {
+    nav ul li {
+      margin-right: 30px;
+    }
+  
+    .site-plan h2 {
+      font-size: 32px;
+    }
+  
+    .site-plan p {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .header h1 {
+      font-size: 40px;
+    }
+  
+    .site-plan {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  
+    .site-map-image {
+      width: 70%;
+    }
+  }
+  
